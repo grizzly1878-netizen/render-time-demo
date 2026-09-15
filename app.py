@@ -7,3 +7,4 @@ app = Flask(__name__)
 def get_time():
     return f"Текущее время: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
  # deploy fix
+ 
